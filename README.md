@@ -158,7 +158,44 @@ In this lab i outline the implementation of on-premises Active Directory within 
 
 <p>
   <br> Join Client-1 to your domain (mydomain.com) </b>
+  <br> From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address </b>
 </p>
+
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/a2879098-0bf0-4465-9ccb-ae6035512ecc)
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/15ef1071-6733-4484-a975-823677bcb85c)
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/f43e1c24-55a8-48d6-91a6-0028a52ffdcc)
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/d42f1caf-6b2d-412f-8a5e-510ef1826269)
+
+<p>
+  <br> From the Azure Portal, restart Client-1 </b>
+</p>
+
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/47e3befc-da68-494f-b50d-3d05f1161770)
+
+<p>
+  <br> Login to Client-1 (Remote Desktop) as the original local admin (labuser) and join it to the domain (computer will restart)
+ </b>
+</p>
+
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/de7b3da7-99dc-47b3-9557-cdc5a606fedb)
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/dada3d6d-d378-4195-9103-4fe93f0ef971)
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/cc2a9f57-8d55-4116-87c6-b698101181a9)
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/10a880ee-4127-4203-b279-72910b95d2fb)
+
+<p>
+  <br> - Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain </b>
+</p>
+
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/654cba51-524d-42b2-8bee-be35d984aa95)
+
+<p>
+  <br> Setup Remote Desktop for non-administrative users on Client-1 </b>
+</p>
+
+
+
+
+
 
 
 
