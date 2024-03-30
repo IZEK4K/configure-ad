@@ -190,7 +190,50 @@ In this lab i outline the implementation of on-premises Active Directory within 
 
 <p>
   <br> Setup Remote Desktop for non-administrative users on Client-1 </b>
+  <br> - Click “Remote Desktop” </b>
+  <br> - Allow “domain users” access to remote desktop </b>
 </p>
+
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/4c725353-b741-46f6-ab0e-4fadd5581769)
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/fa28cfda-cc94-450f-8b3d-d3f96cbeaed0)
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/b074126a-5497-4280-b51c-7065f6916de3)
+
+
+<p>
+  <br> Create a bunch of additional users and attempt to log into client-1 with one of the users </b>
+  <br> - Login to DC-1 as jane_admin </b>
+</p>
+
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/71866c47-a087-4d6d-a9bc-67f1da333e45)
+
+<p>
+  <br> Create a new File and paste the contents of the script into it (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1) </b>
+</p>
+
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/43913375-4b30-49ee-b05a-79ac2217ccca)
+
+<p>
+  <br> Run the script and observe the accounts being created </b>
+</p>
+
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/2169f771-8bab-4b81-a8ab-c42f25041c34)
+
+<p>
+  <br> When finished, open ADUC and observe the accounts in the appropriate OU
+ </b>
+</p>
+
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/a50a13d1-8b35-4fc4-9d73-1ae505931be5)
+
+<p>
+  <br> attempt to log into Client-1 with one of the accounts (take note of the password in the script) </b>
+</p>
+
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/1810e3f2-ab76-4e0c-af43-e4bf053e9865)
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/00e6406c-6d93-4cd7-9811-2eb0a9f9785e)
+
+Lab finished!
+
 
 
 
