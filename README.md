@@ -131,6 +131,37 @@ In this lab i outline the implementation of on-premises Active Directory within 
   <br> - Create a new OU named “_ADMINS” </b>
 </p>
 
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/226797ae-bd52-4415-b239-17d6a20438d6)
+
+<p>
+  <br> - Create a new employee named “Jane Doe” (same password) with the username of “jane_admin” </b>
+</p>
+
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/bbc3a023-1502-4088-b942-e363c58fb6a8)
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/4447f1a2-d467-4424-8c2c-0806c891e2a6)
+
+<p>
+  <br> - Add jane_admin to the “Domain Admins” Security Group </b>
+</p>
+
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/401ca224-dc6d-44d7-b44d-655b126bc40c)
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/6edf5bba-69f8-483a-a45e-5cd8b21af4e4)
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/f868fde0-080a-4c20-84ca-eac5b3f7f999)
+
+<p>
+  <br> - Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\jane_admin” </b>
+</p>
+
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/09befa09-1d6c-4186-9803-0409c8caed85)
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/afe4c072-626f-4962-a37d-269cb1b25421)
+![image](https://github.com/IZEK4K/configure-ad/assets/90485066/495f6a92-7f41-4ebd-bdd8-2222d6fd0c15)
+
+<p>
+  <br> Join Client-1 to your domain (mydomain.com) </b>
+</p>
+
+
+
 
 
 
